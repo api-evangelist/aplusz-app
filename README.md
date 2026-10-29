@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aplusz-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aplusz.app/
+AplusZ is a travel search platform that helps users find the absolute lowest air ticket price for any route on any day. It offers free unlimited searches, exact best date and price, saved routes, reminders, calendar export, offline functionality, and a Pro plan with unlimited route sets and swaps. The service provides a public fare API (OpenAPI) at https://aplusz.app/openapi.json for developers to query flight pricing data programmatically.
+
+**Areas:** Company · Travel · Airfare · Search · Free · Booking
+
+## aplusz-app on APIs.io
+
+Everything profiled for aplusz-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aplusz-app/](https://apis.io/providers/aplusz-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [aplusz-app Cities API](https://apis.io/apis/aplusz-app/aplusz-app-cities-api/) — The Cities API from aplusz-app — 1 operation(s) for cities.
+- [aplusz-app Fare API](https://apis.io/apis/aplusz-app/aplusz-app-fare-api/) — The Fare API from aplusz-app — 1 operation(s) for fare.
+- [aplusz-app Health API](https://apis.io/apis/aplusz-app/aplusz-app-health-api/) — The Health API from aplusz-app — 1 operation(s) for health.
+- [aplusz-app Routes API](https://apis.io/apis/aplusz-app/aplusz-app-routes-api/) — The Routes API from aplusz-app — 1 operation(s) for routes.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aplusz App Agentic Access](https://apis.io/agentic-access/aplusz-app/aplusz-app-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Fare](https://apis.io/schemas/aplusz-app/aplusz-app-fare/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aplusz App Context](https://apis.io/jsonld/aplusz-app/aplusz-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [aplusz-app API Rules](https://apis.io/rules/aplusz-app/aplusz-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aplusz App Authentication](https://apis.io/security/aplusz-app/aplusz-app-authentication/)
+- [Aplusz App Domain Security](https://apis.io/security/aplusz-app/aplusz-app-domain-security/)
+- [Aplusz App Vulnerability Disclosure](https://apis.io/security/aplusz-app/aplusz-app-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Aplusz App Scopes](https://apis.io/scopes/aplusz-app/aplusz-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aplusz App Plans Pricing](https://apis.io/plans/aplusz-app/aplusz-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aplusz App Rate Limits](https://apis.io/rate-limits/aplusz-app/aplusz-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aplusz.app/)
+- [Documentation](https://aplusz.app/docs)
+- [API reference](https://aplusz.app/openapi.json)
+- [Pricing](https://aplusz.app/pricing)
+- [Support](https://aplusz.app/support)
+- [Blog](https://aplusz.app/blog)
+- [Security](https://aplusz.app/legal/)
+- [Terms of service](https://aplusz.app/terms)
+- [Privacy policy](https://aplusz.app/privacy)
+- [GitHub](https://github.com/dagrang-repository/aplusz)
+
+## API Evangelist rating
+
+**Kin Score 49.2** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 48.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 50.5 |
+
+**Agent readiness 42.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aplusz-app/](https://apis.io/providers/aplusz-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for aplusz-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aplusz-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
